@@ -1,0 +1,18 @@
+﻿# Environment variables (Real keys)
+.env
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Output zip
+submission.zip
