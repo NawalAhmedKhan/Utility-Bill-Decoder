@@ -16,3 +16,12 @@ Thumbs.db
 
 # Output zip
 submission.zip
+
+# Dashboard
+node_modules/
+.next/
+
+# Extra
+get-pip.py
+data/test/
+dashboard/public/bills/

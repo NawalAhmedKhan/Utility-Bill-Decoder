@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes glow {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(34,211,238,.15), 0 0 18px rgba(34,211,238,.45); }
+  50% { box-shadow: 0 0 0 6px rgba(34,211,238,.25), 0 0 32px rgba(34,211,238,.8); }
+}
+.spot { animation: glow 1.6s ease-in-out infinite; background: rgba(34,211,238,.08); transition: all .25s; }
